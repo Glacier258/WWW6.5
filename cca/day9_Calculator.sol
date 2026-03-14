@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./day9_ScientificCalculator.sol";
+import {ScientificCalculator} from "./day9_ScientificCalculator.sol";
 
 contract Calculator{
     address public owner;
